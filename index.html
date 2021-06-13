@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Triangle calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <div class="overlay">
+                <div class="triangle"></div>
+                <h2 id='h2'>Equilateral Triangle</h2>
+            </div>
+            <form action="submit" class='form-container'>
+                <div class='feedback'></div>
+                <label for="aside" class='labels'>A side</label>
+                <input type="text" class='aside' required>
+                <label for="bside" class='labels'>B side</label>
+                <input type="text" class='bside' required>
+                <label for="cside" class='labels'> C side</label>
+                <input type="text" class='cside' required>
+    
+                <button>CALCULATE</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+<script src='app.js'></script>
+
+</html>
